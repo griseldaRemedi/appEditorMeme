@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+figure{
+
+  margin: auto;
+}
+#divContendor{
+  max-width: 600px;
+  min-height: 600px;
+  background: rgb(255, 255, 255);
+  position: relative;
+  margin: auto;
+  padding: 10px;
+  display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  #divHijo{
+  min-width: 70%;
+    margin: auto;
+  }
+  .divUtilidades{
+    width: 50%;
+  }
+  
+  .titulo{
+    width: 100%;
+    height: 100px;
+    background-image: URL( './header_meme.jpg');
+    color: rgb(247, 8, 8);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .divGeneral{
+    display: flex;
+    width: 100%;
+  }
+  .imagen{
+    width: 100%;
+  }
+  h5{
+    display: inline;
+    margin: 20px;
+    text-align: left;
+  }
+  h1{
+   background-color: white; 
+   width: fit-content;
+  }
