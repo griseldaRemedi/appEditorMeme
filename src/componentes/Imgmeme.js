@@ -7,7 +7,7 @@ const Imgmeme = () => {
     const[txtmeme,setTxtmeme] = useState("");
     const[txtcolor,setTxtcolor] = useState("#050505");
     const[txtformato,setTxtformato] = useState("");
-    const[txtAlinearV,setTxtAlinearV] = useState(-9);
+    const[txtAlinearV,setTxtAlinearV] = useState(1);
     const[txtAlinearH,setTxtAlinearH] = useState(1);
 
     const seleccionarImg = (e) => {
@@ -23,15 +23,9 @@ const Imgmeme = () => {
             setTxtformato(e.target.value);
         }
     const alinearTexto = (e) => {
-             if (e.target.id==="vertical") {
-                setTxtAlinearV(e.target.value);
-             }
-                else
-                {
+            (e.target.id==="vertical") ?  setTxtAlinearV(e.target.value)                :
                     setTxtAlinearH(e.target.value);
-                }
-                 
-    }
+        }
     const descargarMeme = () => {
             html2canvas(document.querySelector("#exportarImg")).then(canvas => {
                let link = document.createElement('a'); 
