@@ -47,7 +47,7 @@ const Imgmeme = () => {
             <div className='divGeneral'>
             <div className='imagen'>        
                     <figure className="text-center" id="exportarImg">
-                        <div id="divContendor" style={{backgroundImage: `URL(./memes/${imgmeme}.jpg)`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} >
+                        <div id="divContendor" style={{backgroundImage: `url(./memes/${imgmeme}.jpg)`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} >
                             <div id="divHijo" style={{gridColumn: `${txtAlinearH}`, gridRow: `${txtAlinearV}`}}>
                                 <p style={{color: `${txtcolor}` }} className={`h2 mt-4 mb-4 text-center ${txtformato}`}>{txtmeme}</p>
                             </div>   

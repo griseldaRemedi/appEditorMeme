@@ -63,7 +63,7 @@ figure{
   .titulo{
     width: 100%;
     height: 100px;
-    background-image: URL( './header_meme.jpg');
+    background-image: URL( '../public/header_meme.jpg');
     color: rgb(247, 8, 8);
     align-items: center;
     display: flex;
