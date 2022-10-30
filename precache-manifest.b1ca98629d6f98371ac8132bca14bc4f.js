@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4db2f7fac9c36257dfaa",
-    "url": "/appEditorMeme/static/css/main.fe233351.chunk.css"
+    "revision": "3bda6b9cec1545f8b256",
+    "url": "/appEditorMeme/static/css/main.149da80c.chunk.css"
   },
   {
-    "revision": "4db2f7fac9c36257dfaa",
-    "url": "/appEditorMeme/static/js/main.4db2f7fa.chunk.js"
+    "revision": "3bda6b9cec1545f8b256",
+    "url": "/appEditorMeme/static/js/main.3bda6b9c.chunk.js"
   },
   {
     "revision": "bfaef02fc73415496900",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/appEditorMeme/static/js/runtime~main.a5863ed3.js"
   },
   {
-    "revision": "6cf9b38c78641fac9657179ef3a59ebf",
+    "revision": "4e73840bacb07b8aaa7e4ed1a8e44a22",
     "url": "/appEditorMeme/index.html"
   }
 ];
