@@ -60,15 +60,15 @@ figure{
     width: 50%;
   }
   
-  .titulo{
+  /*.titulo{
     width: 100%;
     height: 100px;
-    background-image: url( '%PUBLIC_URL%/header_meme.jpg');
+    background-image: url('%PUBLIC_URL%/header_meme.jpg');
     color: rgb(247, 8, 8);
     align-items: center;
     display: flex;
     justify-content: center;
-  }
+  }*/
   .divGeneral{
     display: flex;
     width: 100%;

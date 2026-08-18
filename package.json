@@ -1,5 +1,6 @@
 {
-    "name": "editormeme",
+  "homepage": "https://griseldaRemedi.github.io/appEditorMeme",
+  "name": "editormeme",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
